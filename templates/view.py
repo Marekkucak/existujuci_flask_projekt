@@ -1,6 +1,6 @@
 <html>
 <title>
-Flask app
+Flask webpage
 </title>
 <body>
 </body>
