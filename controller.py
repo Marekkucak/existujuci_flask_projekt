@@ -8,4 +8,4 @@ model = Model('rss_parser_data.db')
 
 @app.route("/")
 def view():
-    return render_template('view.html')
+    return render_template('view.html', articles_list=model.select_everything())
