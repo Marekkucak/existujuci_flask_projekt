@@ -1,4 +1,6 @@
 import sql3
 
 class Model():
-   pass
+  
+    def select_everything(self):
+        pass
